@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA en la educación</title>
+    <!--link de css boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <!--link de css mío-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    <!--script de boostrap-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md " data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> IA  <img width="30" height="24" src="imagenes/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#miMenu" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="miMenu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/cerebrodigital.ia/">Instagram</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://x.com/iia_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">X</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+    </nav>
+
+    <header class="container-fluid ">
+        <img src="imagenes/ia.jpg" alt="Inteligencia Artificial">
+
+    </header>
+
+    <main class="container-lg text-white">
+        
+     <div class="texto">
+        <h4 class="underline"><strong>ARTÍCULO</strong> . Inteligencia Artificial</h4>
+
+        <h1>El impacto de la Inteligencia Artificial en la educación</h1>
+
+        <h3>Cuales son las ventajas de integrar la inteligencia artificial en la educación</h3>
+        <h3>Por Manuel Marlats</h3>
+        <h3>Última actualización en 31 de agosto de 2024</h3>
+    </div>
+        <div class="row aling-items-md-center justify-content-lg-between align-items-lg-start ">
+              <div class="text-dark col-md-6 col-lg-3">
+                  <h2>Evaluación Automatizada</h2>
+                    <p>
+                        Implementar herramientas de IA que puedan corregir exámenes y tareas de manera automática, proporcionando retroalimentación inmediata y ahorrando tiempo a los docentes.
+                    </p>
+              </div> <!--primer div-->
+              <div class="text-dark col-md-6 col-lg-3">
+                  <h2>Tutoría Inteligente</h2>
+                  <p>
+                    Utilizar sistemas de tutoría basados en IA para proporcionar asistencia personalizada a los estudiantes, adaptándose a su ritmo de aprendizaje y necesidades específicas.
+                  </p>
+              </div> <!--segundo div-->
+              <div class="text-dark col-lg-3">
+                  <h2>Monitoreo del Progreso Académico</h2>
+                  <p>
+                    Utilizar IA para realizar un seguimiento continuo del progreso de los estudiantes, identificando patrones y prediciendo áreas de dificultad para intervenir a tiempo con recursos adicionales.
+                    </p>
+              </div> <!--tercer div-->
+      
+         </div> <!--fila-->
+
+         <div class="texto-img">
+            <h2 >Impulsemos el Futuro: Instituciones, ¡Es Hora de Integrar la Inteligencia Artificial!</h2>
+            <h4>En un mundo donde la innovación define el éxito, la inteligencia artificial (IA) se presenta como una herramienta clave para transformar las instituciones y llevarlas al siguiente nivel. Adoptar la IA no solo mejora la eficiencia y la toma de decisiones, sino que también abre puertas a nuevas oportunidades de crecimiento y optimización de recursos. Es el momento ideal para que las instituciones se sumen a esta revolución tecnológica, aprovechando su potencial para ofrecer mejores servicios, impulsar la investigación y mejorar la experiencia de estudiantes, empleados y usuarios. La inteligencia artificial es el futuro y, al integrarla, su institución no solo se adaptará a los tiempos, sino que se posicionará como líder en innovación y excelencia.</h4>
+         </div>
+
+         <div class="imagen-container">
+            <img src="imagenes/img1.png" alt="imagen" class="img-fluid">
+            <img src="imagenes/img2.png" alt="imagen" class="img-fluid">
+        </div>
+        
+   
+        <div class="d-flex justify-content-center mb-5">
+         <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#miModal">
+            Subscribite
+         </button>
+        </div>
+         
+      
+      
+    </main>
+<section class="form">
+    <div class="modal fade" id="miModal" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-fullscreen-lg-down">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h2 class="modal-title">Subscribite</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                </div> <!--modal header-->
+
+                <div class="modal-body">
+
+                    <form class="needs-validation" novalidate action="code.php" method="post">
+
+                        <div class="position-relative">
+                            <label for="name" class="form-label"> Nombre</label>
+                            <input required class="form-control" type="text" name="name" id="name">
+                            <div class="invalid-tooltip">El nombre esta incompleto</div>
+                            <!--closes the div for the invalid feedback-->
+
+                        </div> <!--closes the div for the name-->
+
+
+                        <div class="position-relative">
+                            <label for="email" class="form-label">Mail</label>
+                            <input required type="email" name="email" id="email" class="form-control">
+                            <div class="invalid-tooltip">Fijate que el mail no esta bien</div>
+                        </div> <!--closes the div for the email-->
+
+                        <button class="btn btn-warning"> Enviar</button>
+
+
+                    </form> <!--closing for the form-->
+
+
+
+
+
+                </div> <!--modal body closes-->
+
+                <div class="modal-footer">
+                    <p data-bs-dismiss="modal">Cerrar el modal</p>
+                </div> <!--modal footer closes-->
+
+            </div> <!--modal content closes-->
+        </div> <!--modal dialog closes-->
+    </div> <!--modal div closes-->
+
+    <script src="js/code.js"></script>
+</section>
+<footer class="container-fluid text-light">
+
+        
+</footer>
+
+    
+    
+</body>
+</html>
